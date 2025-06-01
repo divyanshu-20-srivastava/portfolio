@@ -45,7 +45,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "arjun.kapoor@example.com", // Replace with actual email
@@ -63,18 +63,18 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "https://x.com/arjunkapoor", // Replace with actual X (Twitter)
-        icon: Icons.x,
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://youtube.com/aaravsharma", // Replace with actual YouTube
-        icon: Icons.youtube,
-        navbar: true,
-      },
+      // X: {
+      //   name: "X",
+      //   url: "https://x.com/arjunkapoor", // Replace with actual X (Twitter)
+      //   icon: Icons.x,
+      //   navbar: true,
+      // },
+      // Youtube: {
+      //   name: "Youtube",
+      //   url: "https://youtube.com/aaravsharma", // Replace with actual YouTube
+      //   icon: Icons.youtube,
+      //   navbar: true,
+      // },
       email: {
         name: "Send Email",
         url: "#", // Or mailto:arjun.kapoor@example.com

@@ -4,13 +4,13 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Divyanshu Srivastava",
   initials: "DS",
-  url: "https://divyanshu.io",
+  url: "https://divyanshu-srivastava.vercel.app",
   location: "Noida, India",
   locationLink: "https://maps.app.goo.gl/8kGFQ2AVLetQvqP49",
   description:
     "A backend developer passionate about building robust and scalable applications, with hands-on experience in deploying and managing server infrastructure",
   summary:
-    "With one year of experience, I've built and deployed multiple full-stack projects, encompassing both frontend and backend development, and launched them on AWS. This journey showcases my end-to-end development capabilities.",
+    "With one year of experience, I've demonstrated end-to-end development capabilities by designing, building, and deploying multiple full-stack projects. My focus has been on architecting scalable backend systems, utilizing Docker for containerization, managing server infrastructure on AWS, and leveraging Cloudflare for DDoS protection and optimized frontend delivery via CDNs. This includes strategic implementation of services like Redis for high-performance caching, Kafka for resilient event streaming, and robust socket solutions for real-time communication, ensuring efficient and secure application delivery",
   avatarUrl: "/me.png",
   skills: [
     "Node.js",
@@ -23,6 +23,9 @@ export const DATA = {
     "Docker",
     "AWS",
     "Cloudflare",
+    "Redis",
+    "Kafka",
+    "Websockets",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -34,14 +37,14 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/divyanshu20D",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://linkedin.com/in/divyanshu-20-srivastava",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -58,7 +61,7 @@ export const DATA = {
       title: "SDE-1 (Frontend and Backend)",
       logoUrl: "/designoweblogo.jpg",
       start: "June 2024",
-      end: "June 2025",
+      end: "Present",
       description:
         "Engineered and launched multiple high-performance frontend applications using Next.js with TypeScript and Zustand, delivering exceptionally fast and responsive UIs through strategic prefetching, optimized asset loading, and global CDN deployment for superior speed and scalability. Architected, built, and deployed a robust backend system with Node.js and Express, leveraging MySQL and MongoDB for versatile data persistence, Redis for high-performance caching and message brokering, and BullMQ for resilient background job processing. This system features horizontally scalable Socket.IO servers for real-time bi-directional communication and resilient, integrated notification systems, alongside Stripe integration for secure payment processing. Proficient in containerizing backend services (e.g., Docker) for streamlined cloud deployment and operational efficiency.",
     },
