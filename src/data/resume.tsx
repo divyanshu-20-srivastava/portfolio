@@ -281,12 +281,97 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://admin.nexlead.ca/",
+          href: "https://nexlead.ca/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image:
         "https://nexlead-media.s3.us-east-2.amazonaws.com/files/1039662a-1f0a-4255-9c97-39f2d67ae670.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title:
+        "MakeYourLabel - Modern way of creating labels for clothing brands",
+      href: "https://makeyourlabel.com/",
+      dates: "March 2025 - May 2025",
+      active: true,
+      description:
+        "Developed complete backend and frontend of the project using Node.js and React.js and deployed it using the cloudflare CDN using Digital-Ocean for backend and AWS S3 for frontend. Also Developed the backend and frontend for the Admin dashboard for the project. It is a platform where users can create labels for their products and get the best quality labels and clothing at the best price. It was an freelancing gig where the platform is being used by around 10K users everyday",
+      technologies: [
+        "Node.js",
+        "React.js",
+        "MongoDB",
+        "Prisma",
+        "Redis",
+        "BullMQ",
+        "Stripe",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://makeyourlabel.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://flambao.s3.eu-north-1.amazonaws.com/uploads/1751366806307_Screenshot_2025-07-01_161604.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "BookMarkAI - AI Powered Bookmarks",
+      href: "#",
+      dates: "July 2025 - Present",
+      active: true,
+      description:
+        "This is an AI powered bookmark website with vector searching using Gemini AI where user can store their book mark and then can search about their bookmark while doing normal searching like (Give me the link related to React server components.) and you will get your bookmark, it uses vector databases and embedding and performs vector searching to get the best results. I have developed both backend and frontend of the applications.",
+      technologies: [
+        "Node.js",
+        "React.ts",
+        "SingleStore (Vector DB)",
+        "Prisma",
+        "Google Gemini AI",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/divyanshu20D/BookmarkAI",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image:
+        "https://flambao.s3.eu-north-1.amazonaws.com/uploads/1751368330766_Screenshot_2025-07-01_164154.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "Excitpay - A UPI merchant",
+      href: "https://excitpay.com/",
+      dates: "July 2025 - Present",
+      active: true,
+      description:
+        "Excitpay is a unified UPI-based payments and lifestyle platform that enables users to make secure transactions and book hotels, flights, dining, and movie tickets—all within a single application. As the full-stack developer on the project, I worked with React (Next.js) on the frontend and Node.js with MongoDB on the backend, integrating secure UPI payment flows and multiple third-party APIs for real-time bookings. Key challenges included ensuring seamless performance across services, maintaining data consistency, and handling asynchronous operations like payment confirmations and live seat availability. The result was a fast, scalable, and user-friendly platform built for high availability and trust.",
+      technologies: [
+        "Node.js",
+        "React.ts",
+        "MongoDB",
+        "Prisma",
+        "Stripe",
+        "Flight booking API key",
+        "Google Reserve API key",
+        "Google Maps API key",
+        "Google Places API key",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://excitpay.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://flambao.s3.eu-north-1.amazonaws.com/uploads/1751373478195_Screenshot_2025-07-01_180745.png",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
