@@ -1,3 +1,4 @@
+"use client"
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -5,6 +6,7 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -27,15 +29,31 @@ export default function Page() {
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
-                text={DATA.description}
+                text={`${DATA.description}`}
               />
             </div>
-            <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-28 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-                <AvatarFallback>{DATA.initials}</AvatarFallback>
-              </Avatar>
-            </BlurFade>
+            <div>
+
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <Avatar className="size-28 border">
+                  <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+                  <AvatarFallback>{DATA.initials}</AvatarFallback>
+                </Avatar>
+              </BlurFade>
+              <Button
+                className="bg-gray-700 mt-5 text-white hover:text-gray-700 hover:bg-gray-200 shadow-lg hover:shadow-2xl flex items-center justify-end"
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = '/divyanshu-cv.pdf';
+                  link.download = 'divyanshu-cv.pdf';
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
+              >
+                Download CV
+              </Button>
+            </div>
           </div>
         </div>
       </section>

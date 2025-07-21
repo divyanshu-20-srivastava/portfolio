@@ -162,6 +162,38 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "EchoMeetAI",
+      href: "https://github.com/divyanshu20D/meet-AI",
+      dates: "July 2025 - Present",
+      active: true,
+      description:
+        "Verdant Meet is a real-time video conferencing web application inspired by Google Meet. Built with WebRTC and Socket.IO for seamless peer-to-peer video/audio communication, the platform supports multi-user meetings with screen sharing and chat. What sets Verdant Meet apart is its integrated AI meeting summarizer: at the end of each session, a concise, context-aware summary is generated using natural language processing (NLP), providing participants with a clear recap of key discussion points.",
+      technologies: [
+        "React.js",
+        "Node.js",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "WebRTC",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://thejadeapp.com/",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Source",
+          href: "https://github.com/divyanshu20D/meet-AI",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image:
+        "https://nexlead-media.s3.us-east-2.amazonaws.com/uploads/43428e91-e074-43fd-925a-c1fc9de6ac25.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
       title: "JADE",
       href: "https://chatcollect.com",
       dates: "Oct 2024 - Jan 2025",
