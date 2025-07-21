@@ -8,7 +8,7 @@ export const DATA = {
   location: "Noida, India",
   locationLink: "https://maps.app.goo.gl/8kGFQ2AVLetQvqP49",
   description:
-    "A backend developer passionate about building robust and scalable applications, with hands-on experience in deploying and managing server infrastructure",
+    "As a full-stack developer, I enjoy building web applications from end to end. I focus on creating reliable backend systems and functional user interfaces, with an emphasis on developing solutions that can efficiently handle growth and increased demand.",
   summary:
     "With one year of experience, I've demonstrated end-to-end development capabilities by designing, building, and deploying multiple full-stack projects. My focus has been on architecting scalable backend systems, utilizing Docker for containerization, managing server infrastructure on AWS, and leveraging Cloudflare for DDoS protection and optimized frontend delivery via CDNs. This includes strategic implementation of services like Redis for high-performance caching, Kafka for resilient event streaming, and robust socket solutions for real-time communication, ensuring efficient and secure application delivery",
   avatarUrl: "/me.png",
@@ -26,6 +26,8 @@ export const DATA = {
     "Redis",
     "Kafka",
     "Websockets",
+    "Github CI/CD",
+    "WebRTC"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -224,7 +226,7 @@ export const DATA = {
     },
     {
       title: "Flambao - Mobile App",
-      href: "https://flambao.com",
+      href: "https://myadmin.flambao.com",
       dates: "May 2025 - Present",
       active: false,
       description:
@@ -248,7 +250,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://myadmin.flambao.com",
           icon: <Icons.globe className="size-3" />,
         },
         // {

@@ -27,7 +27,7 @@ export default function Page() {
                 text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
               />
               <BlurFadeText
-                className="max-w-[600px] md:text-xl"
+                className="max-w-[600px] md:text-base pt-3"
                 delay={BLUR_FADE_DELAY}
                 text={`${DATA.description}`}
               />
@@ -40,19 +40,22 @@ export default function Page() {
                   <AvatarFallback>{DATA.initials}</AvatarFallback>
                 </Avatar>
               </BlurFade>
-              <Button
-                className="bg-gray-700 mt-5 text-white hover:text-gray-700 hover:bg-gray-200 shadow-lg hover:shadow-2xl flex items-center justify-end"
-                onClick={() => {
-                  const link = document.createElement('a');
-                  link.href = '/divyanshu-cv.pdf';
-                  link.download = 'divyanshu-cv.pdf';
-                  document.body.appendChild(link);
-                  link.click();
-                  document.body.removeChild(link);
-                }}
-              >
-                Download CV
-              </Button>
+              <BlurFade>
+
+                <Button
+                  className="bg-gray-700 mt-5 text-white hover:text-gray-700 hover:bg-gray-200 shadow-lg hover:shadow-2xl flex items-center justify-end"
+                  onClick={() => {
+                    const link = document.createElement('a');
+                    link.href = '/divyanshu-cv.pdf';
+                    link.download = 'divyanshu-cv.pdf';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                  }}
+                >
+                  Download CV
+                </Button>
+              </BlurFade>
             </div>
           </div>
         </div>
