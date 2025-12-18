@@ -44,8 +44,8 @@ export default function Page() {
                   className="bg-gray-700 mt-5 text-white hover:text-gray-700 hover:bg-gray-200 shadow-lg hover:shadow-2xl flex items-center justify-end"
                   onClick={() => {
                     const link = document.createElement("a");
-                    link.href = "/Divyanshu-CV.pdf";
-                    link.download = "Divyanshu-CV.pdf";
+                    link.href = "/divyanshu-cv.pdf";
+                    link.download = "divyanshu-cv.pdf";
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
