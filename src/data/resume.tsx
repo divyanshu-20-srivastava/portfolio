@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "As a full-stack developer, I enjoy building web applications from end to end. I focus on creating reliable backend systems and functional user interfaces, with an emphasis on developing solutions that can efficiently handle growth and increased demand.",
   summary:
-    "With one year of experience, I've demonstrated end-to-end development capabilities by designing, building, and deploying multiple full-stack projects. My focus has been on architecting scalable backend systems, utilizing Docker for containerization, managing server infrastructure on AWS, and leveraging Cloudflare for DDoS protection and optimized frontend delivery via CDNs. This includes strategic implementation of services like Redis for high-performance caching, Kafka for resilient event streaming, and robust socket solutions for real-time communication, ensuring efficient and secure application delivery",
+    "With more than 2 years of experience, I've demonstrated end-to-end development capabilities by designing, building, and deploying multiple full-stack projects. My focus has been on architecting scalable backend systems, utilizing Docker for containerization, managing server infrastructure on AWS, and leveraging Cloudflare for DDoS protection and optimized frontend delivery via CDNs. This includes strategic implementation of services like Redis for high-performance caching, Kafka for resilient event streaming, and robust socket solutions for real-time communication, ensuring efficient and secure application delivery",
   avatarUrl: "/me.png",
   skills: [
     "Node.js",
@@ -27,7 +27,7 @@ export const DATA = {
     "Kafka",
     "Websockets",
     "Github CI/CD",
-    "WebRTC"
+    "WebRTC",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -62,7 +62,7 @@ export const DATA = {
       location: "Noida Sector 62",
       title: "SDE-1 (Frontend and Backend)",
       logoUrl: "/designoweblogo.jpg",
-      start: "June 2024",
+      start: "Mar 2024",
       end: "Present",
       description:
         "Engineered and launched multiple high-performance frontend applications using Next.js with TypeScript and Zustand, delivering exceptionally fast and responsive UIs through strategic prefetching, optimized asset loading, and global CDN deployment for superior speed and scalability. Architected, built, and deployed a robust backend system with Node.js and Express, leveraging MySQL and MongoDB for versatile data persistence, Redis for high-performance caching and message brokering, and BullMQ for resilient background job processing. This system features horizontally scalable Socket.IO servers for real-time bi-directional communication and resilient, integrated notification systems, alongside Stripe integration for secure payment processing. Proficient in containerizing backend services (e.g., Docker) for streamlined cloud deployment and operational efficiency.",
@@ -226,7 +226,7 @@ export const DATA = {
     },
     {
       title: "Flambao - Mobile App",
-      href: "https://myadmin.flambao.com",
+      href: "https://apps.apple.com/us/app/flambao/id6747800633",
       dates: "May 2025 - Present",
       active: false,
       description:
@@ -296,7 +296,7 @@ export const DATA = {
     },
     {
       title: "Nexlead - Modern way of advertising with AR (Mobile App)",
-      href: "https://admin.nexlead.ca/",
+      href: "https://play.google.com/store/apps/details?id=com.mobile.nexlead&pcampaignid=web_share",
       dates: "March 2024 - May 2024",
       active: true,
       description:
@@ -311,11 +311,12 @@ export const DATA = {
         "Redis",
         "RabbitMQ",
         "Stripe",
+        "AWS",
       ],
       links: [
         {
           type: "Website",
-          href: "https://nexlead.ca/",
+          href: "https://play.google.com/store/apps/details?id=com.mobile.nexlead&pcampaignid=web_share",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -340,6 +341,7 @@ export const DATA = {
         "Redis",
         "BullMQ",
         "Stripe",
+        "AWS",
       ],
       links: [
         {
@@ -379,36 +381,65 @@ export const DATA = {
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
+
     {
-      title: "Excitpay - A UPI merchant",
-      href: "https://excitpay.com/",
-      dates: "July 2025 - Present",
+      title: "FlowForge AI - Automated Flow Diagrams",
+      href: "#",
+      dates: "Aug 2025 - Present",
       active: true,
       description:
-        "Excitpay is a unified UPI-based payments and lifestyle platform that enables users to make secure transactions and book hotels, flights, dining, and movie tickets—all within a single application. As the full-stack developer on the project, I worked with React (Next.js) on the frontend and Node.js with MongoDB on the backend, integrating secure UPI payment flows and multiple third-party APIs for real-time bookings. Key challenges included ensuring seamless performance across services, maintaining data consistency, and handling asynchronous operations like payment confirmations and live seat availability. The result was a fast, scalable, and user-friendly platform built for high availability and trust.",
+        "FlowForge AI creates a complete, end-to-end flow diagram for a project from a simple prompt—covering user journeys, APIs, services, databases, queues, and deployment. It generates a structured architecture map that you can edit like a design tool: move nodes, change layouts, group modules, and drill down into sub-flows (auth, payments, notifications, background jobs) to understand the system inside-out. It also supports exporting/shareable diagrams for documentation and team reviews.",
       technologies: [
+        "Next.js",
+        "TypeScript",
+        "React Flow",
         "Node.js",
-        "React.ts",
-        "MongoDB",
-        "Prisma",
-        "Stripe",
-        "Flight booking API key",
-        "Google Reserve API key",
-        "Google Maps API key",
-        "Google Places API key",
+        "PostgreSQL",
+        "Redis",
+        "LLM APIs",
       ],
       links: [
         {
-          type: "Website",
-          href: "https://excitpay.com/",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source",
+          href: "#",
+          icon: <Icons.github className="size-3" />,
         },
       ],
-      image:
-        "https://flambao.s3.eu-north-1.amazonaws.com/uploads/1751373478195_Screenshot_2025-07-01_180745.png",
+      image: "/image.png",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
+
+    // {
+    //   title: "Excitpay - A UPI merchant",
+    //   href: "https://excitpay.com/",
+    //   dates: "July 2025 - Present",
+    //   active: true,
+    //   description:
+    //     "Excitpay is a unified UPI-based payments and lifestyle platform that enables users to make secure transactions and book hotels, flights, dining, and movie tickets—all within a single application. As the full-stack developer on the project, I worked with React (Next.js) on the frontend and Node.js with MongoDB on the backend, integrating secure UPI payment flows and multiple third-party APIs for real-time bookings. Key challenges included ensuring seamless performance across services, maintaining data consistency, and handling asynchronous operations like payment confirmations and live seat availability. The result was a fast, scalable, and user-friendly platform built for high availability and trust.",
+    //   technologies: [
+    //     "Node.js",
+    //     "React.ts",
+    //     "MongoDB",
+    //     "Prisma",
+    //     "Stripe",
+    //     "Flight booking API key",
+    //     "Google Reserve API key",
+    //     "Google Maps API key",
+    //     "Google Places API key",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://excitpay.com/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image:
+    //     "https://flambao.s3.eu-north-1.amazonaws.com/uploads/1751373478195_Screenshot_2025-07-01_180745.png",
+    //   // video:
+    //   //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    // },
   ],
   // hackathons: [
   //   {
